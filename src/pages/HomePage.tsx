@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Mail, Linkedin, Github, ArrowRight, MapPin } from "lucide-react";
-import profileImg from "figma:asset/29461e9532d1fde734804961870314804c731b86.png";
+
+// ✅ Fixed import: Use standard local import instead of 'figma:asset/...'
+import profileImg from "@/assets/29461e9532d1fde734804961870314804c731b86.png";
 
 export function HomePage() {
   return (
@@ -65,7 +67,6 @@ export function HomePage() {
 
             {/* Right Content */}
             <div className="relative animate-[fadeInUp_0.8s_ease-out] lg:pb-20">
-              {/* Profile Image with Circle */}
               <div className="relative flex justify-center lg:justify-end mb-6 lg:mb-0">
                 <div className="relative group">
                   {/* Circle Border */}
@@ -82,7 +83,7 @@ export function HomePage() {
                     />
                   </div>
                   
-                  {/* Location Card - Desktop (absolute positioned) */}
+                  {/* Location Card - Desktop */}
                   <a
                     href="https://www.google.com/maps/place/Limerick,+Ireland"
                     target="_blank"
@@ -109,7 +110,7 @@ export function HomePage() {
                 </div>
               </div>
 
-              {/* Location Card - Mobile (normal flow) */}
+              {/* Location Card - Mobile */}
               <a
                 href="https://www.google.com/maps/place/Limerick,+Ireland"
                 target="_blank"
@@ -146,7 +147,7 @@ export function HomePage() {
                 </div>
               </div>
 
-              {/* Tagline - Below Creative Designer */}
+              {/* Tagline */}
               <div className="mt-4 text-center lg:text-right animate-[fadeIn_1.8s_ease-out]">
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed max-w-[280px] mx-auto lg:ml-auto lg:mr-0">
                   I design beautifully simple things, and I love what I do.
@@ -181,32 +182,16 @@ export function HomePage() {
 
       <style>{`
         @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
+          from { opacity: 0; }
+          to { opacity: 1; }
         }
-
         @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
         }
-
         @keyframes float {
-          0%, 100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-20px);
-          }
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-20px); }
         }
       `}</style>
     </div>

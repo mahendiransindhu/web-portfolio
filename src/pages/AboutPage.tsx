@@ -10,24 +10,22 @@ export function AboutPage() {
       {/* Main Content */}
       <div className="max-w-3xl mx-auto px-6 py-32 relative z-10">
         
-        {/* Blog Header */}
+        {/* Page Header */}
         <article className="animate-[fadeInUp_0.8s_ease-out]">
           <div className="mb-16">
             <h1 className="text-4xl md:text-5xl mb-6 leading-tight text-slate-900 dark:text-white">
-              I'm an engineer turned designer, blending tech skills with creative thinking
+              From Circuits to Experiences: My Journey as an Engineer Turned Designer
             </h1>
-
             <div className="h-px bg-gradient-to-r from-transparent via-indigo-300 dark:via-indigo-700 to-transparent mb-8" />
           </div>
 
-          {/* Blog Content */}
+          {/* Page Content */}
           <div className="prose prose-slate dark:prose-invert max-w-none space-y-8">
             
             {/* Introduction */}
             <section>
               <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
-                My journey into design wasn't a straight path, but rather a natural evolution shaped by curiosity, 
-                technical challenges, and a growing realization that the best technology is the kind that feels human.
+                My journey into design has been anything but linear. It’s been a natural evolution fueled by curiosity, hands-on problem-solving, and a growing realization that the best technology is the kind that feels human.
               </p>
             </section>
 
@@ -35,10 +33,7 @@ export function AboutPage() {
             <section>
               <h2 className="text-2xl mb-4 text-slate-900 dark:text-white">Where It All Began</h2>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                Growing up in a defence family in Pune, India, I learned early on the importance of discipline, 
-                structure, and problem-solving. These values became the foundation of my approach to both engineering 
-                and design. I pursued a Bachelor's degree in Electronics and Telecommunication Engineering from 2017 
-                to 2021, diving deep into the technical world of circuits, systems, and signals.
+                Growing up in a defence family in Pune, India, discipline, structure, and problem-solving were second nature to me. These values became the backbone of my approach to both engineering and design. From 2017 to 2021, I pursued a Bachelor's in Electronics and Telecommunication Engineering, diving deep into circuits, systems, and signals, and discovering the joy of building and understanding complex systems.
               </p>
             </section>
 
@@ -46,24 +41,18 @@ export function AboutPage() {
             <section>
               <h2 className="text-2xl mb-4 text-slate-900 dark:text-white">The Technical Years</h2>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-                After graduation, I joined Uniphore as a Technical Solutions Engineer, where I spent over three years 
-                deploying AI-powered solutions for Fortune 500 companies. I worked with Python, SQL, and enterprise 
-                technologies, solving complex technical problems and implementing cutting-edge AI systems.
+                After graduation, I joined Uniphore as a Technical Solutions Engineer. Over three years, I deployed AI-powered solutions for Fortune 500 companies, solving complex problems using Python, SQL, and enterprise technologies. I loved the technical challenge—but something else started to catch my attention.
               </p>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                But something interesting happened during this time. While I was troubleshooting technical issues, I 
-                found myself increasingly drawn to understanding why users struggled with certain interfaces. I started 
-                asking different questions: not just "How can we fix this bug?" but "Why is this confusing in the first 
-                place?" That curiosity marked the beginning of my transition into UX design.
+                While troubleshooting, I became curious about the people using these systems. Why did certain interfaces confuse users? How could I make interactions intuitive rather than frustrating? Those questions ignited my transition into UX design, teaching me that the best technology isn’t always the most complex—it’s the most human.
               </p>
             </section>
 
-            {/* The Realization */}
+            {/* Realization */}
             <section>
               <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950/30 dark:to-slate-900 rounded-xl p-6 border-l-4 border-indigo-600 dark:border-indigo-400 my-8">
                 <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed italic">
-                  The best technology isn't the most complex—it's the most human. This realization changed everything 
-                  for me and sparked my transition from building technology to designing experiences.
+                  The best technology isn't the most complex—it's the most human. This realization transformed my path from building systems to crafting experiences.
                 </p>
               </div>
             </section>
@@ -72,14 +61,10 @@ export function AboutPage() {
             <section>
               <h2 className="text-2xl mb-4 text-slate-900 dark:text-white">Where I Am Now</h2>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-                In 2025, I took a leap and moved to Ireland to pursue a Master's degree in Interaction and Experience 
-                Design at the University of Limerick. Here, I'm exploring AR/VR technologies, accessibility, emotional 
-                design, and the future of human-computer interaction.
+                In 2025, I moved to Ireland to pursue a Master's in Interaction and Experience Design at the University of Limerick. Here, I explore AR/VR, accessibility, emotional design, and the future of human-computer interaction.
               </p>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                My goal is to bridge the gap between technical feasibility and human needs. My engineering background 
-                helps me understand what's possible, while my design education teaches me what's meaningful. Together, 
-                they allow me to create digital experiences that are both powerful and intuitive.
+                My goal is to bridge technical feasibility with human needs. My engineering background shows me what’s possible, and my design education teaches me what’s meaningful. Together, they let me craft digital experiences that are both powerful and intuitive.
               </p>
             </section>
 
@@ -124,10 +109,7 @@ export function AboutPage() {
             <section>
               <h2 className="text-2xl mb-4 text-slate-900 dark:text-white">My Design Philosophy</h2>
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                I believe great design is invisible. It should feel so natural that users don't even think about it—they 
-                just experience joy, efficiency, and delight. My approach combines systems thinking from my engineering 
-                days with empathy and creativity from my design education. The result is experiences that work seamlessly 
-                because they're built on a deep understanding of both technology and human behavior.
+                I believe great design is invisible. It should feel so natural that users don’t even notice it—they just feel delight, efficiency, and ease. My approach blends systems thinking from engineering with empathy and creativity from design, resulting in experiences that feel seamless because they are rooted in understanding both technology and human behavior.
               </p>
             </section>
 
@@ -136,9 +118,7 @@ export function AboutPage() {
               <div className="max-w-2xl mx-auto text-center">
                 <Heart className="w-10 h-10 mx-auto mb-4" />
                 <p className="text-lg leading-relaxed">
-                  I'm always excited to discuss design, technology, and innovative solutions. If you're looking for 
-                  a UX designer with a strong technical foundation and a passion for creating meaningful experiences, 
-                  let's connect.
+                  I’m always excited to discuss design, technology, and innovation. If you’re looking for a UX designer with a strong technical foundation and a passion for meaningful experiences, let’s connect.
                 </p>
               </div>
             </section>
@@ -149,32 +129,16 @@ export function AboutPage() {
 
       <style>{`
         @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
+          from { opacity: 0; }
+          to { opacity: 1; }
         }
-
         @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
         }
-
         @keyframes float {
-          0%, 100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-20px) rotate(5deg);
-          }
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(5deg); }
         }
       `}</style>
     </div>
