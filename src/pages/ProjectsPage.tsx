@@ -5,6 +5,12 @@ import portraitImage from "@/assets/2896dec91eca877574ab3a989174318012468aac.png
 import nightSkyImage from "@/assets/c6fd7b153b8a444161b5871123f551e1faed8b8d.png";
 import everydayObjectsImage from "@/assets/0f18cdcfacc43c7b354551e4f30568b8192bd1e9.png";
 
+// Video project images
+import videoImg1 from "@/assets/8.jpeg";
+import videoImg2 from "@/assets/9.jpeg";
+import videoImg3 from "@/assets/10.jpeg";
+import videoImg4 from "@/assets/11.jpeg";
+
 interface Project {
   id: string;
   title: string;
@@ -30,7 +36,7 @@ export function ProjectsPage() {
       image: everydayObjectsImage,
       height: "normal",
       description:
-        "A creative project showcasing innovative design thinking and user-centered approach.",
+        "<b>OVERVIEW:</b> A creative project showcasing innovative design thinking and a user-centered approach. The focus is on how everyday objects can embody aesthetic principles while remaining functional. Each object was analyzed for ergonomics, form, and interaction.<br><br><b>INSIGHTS:</b> Observations revealed patterns in how humans intuitively engage with objects, emphasizing minimalism, texture, and adaptability.<br><br><b>OUTCOME:</b> The project culminated in a visual documentation highlighting the thoughtful design qualities and practical utility, inspiring a deeper appreciation for everyday items.",
       externalLink:
         "https://drive.google.com/file/d/1SPFX2IIAGy0hkFYkqEvhDJ_ixelTqAD9/view?usp=sharing",
     },
@@ -42,7 +48,7 @@ export function ProjectsPage() {
         "https://images.unsplash.com/photo-1762318953799-918e21d1fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       height: "tall",
       description:
-        "An exploration of geometric patterns and minimal aesthetics in product design.",
+        "<b>OVERVIEW:</b> A study exploring geometric patterns, minimal aesthetics, and user behavior in product interaction. The research combines visual analysis, prototyping, and qualitative feedback.<br><br><b>METHODOLOGY:</b> Through interviews and observational studies, user responses to form, shape, and material were documented.<br><br><b>FINDINGS:</b> Simpler shapes with ergonomic considerations resulted in higher usability ratings. The visual narrative emphasizes balance, proportion, and emotional resonance in product design.<br><br><b>OUTCOME:</b> The insights informed design principles and prototypes that merge aesthetic appeal with intuitive functionality.",
       externalLink:
         "https://drive.google.com/file/d/1nO1_zlgJL0IcDmXBi0tgGr1nqm0R_tXf/view?usp=sharing",
     },
@@ -54,80 +60,60 @@ export function ProjectsPage() {
         "https://images.unsplash.com/photo-1586296835409-fe3fe6b35b56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       height: "normal",
       description:
-        "Sculptural forms meet functional design in this creative exploration.",
+        "<b>OVERVIEW:</b> A sculptural exploration of form, material, and functional design. The project aimed to merge aesthetics with usability, resulting in unique, interactive prototypes.<br><br><b>PROCESS:</b> Each prototype was crafted through iterative design, combining sketching, 3D modeling, and hands-on prototyping. Materials were chosen for texture, durability, and visual appeal.<br><br><b>OUTCOME:</b> The final series of designs demonstrates a harmonious balance between visual beauty, practical functionality, and user engagement.",
       externalLink:
         "https://drive.google.com/file/d/1P4dKrNeSAfUu76qckZIbTwXq6NJ1Fyl3/view?usp=sharing",
     },
     {
       id: "4",
-      title: "Cosy Evening at Home",
+      title: "Asthetic Shot: Cosy Evening at Home",
       category: "uxui",
       image: cosyRoomImage,
       height: "tall",
-      description: `<b>Technical Specifications</b>
-Camera: Apple iPhone 16 Pro (Main rear camera)
-Resolution: 10 MP (2941 × 3637), JPEG (2.3 MB)
-Focal Length: 24 mm
-Aperture: f/1.78
-Shutter Speed: 1.4 s
-ISO: 2000
-Exposure Compensation: 0 EV
-
-<b>Description</b>
-
-That evening, the living room felt like a quiet little world of its own. The soft, golden glow of fairy lights and flickering candles filled the space with warmth, wrapping everything in a calm, comforting embrace. The sofa sat quietly in the middle, anchoring the scene, while the coffee table in front told its own story—a laptop left open from work or creativity, a Marshall speaker hinting at a favourite playlist, tiny candles flickering, and soft toys tucked nearby adding a personal, playful touch.
-
-Behind it all, the curtains caught the glow of the lights, forming a gentle, textured backdrop that made the space feel intimate and inviting. The wooden floor reflected the light in subtle, shimmering patterns, creating depth and movement, while shadows played softly along the edges, keeping the room cozy and alive. Every detail—the laptop, the candles, the small scattered objects—worked together to create a scene that felt lived-in, personal, and full of quiet stories.
-
-It was more than just a room; it was a moment frozen in time, a pause in the day where warmth, comfort, and creativity coexisted. The soft golden light made everything feel like it belonged exactly where it was, inviting anyone who saw it to sit down, breathe, and stay a little longer in the calm glow.
-
-<b>Editing Notes</b>
-
-Brightness and shadows were adjusted to keep the candlelight soft and glowing without overexposing any highlights.
-
-Contrast was slightly increased to separate the dark sofa from the lighter curtains and floor.
-
-Warmth and saturation were enhanced to emphasize the cosy, golden glow of the lights.
-
-Noise was gently reduced to smooth the image without losing texture in the curtains or wooden floor.
-
-A subtle vignette was applied to guide the viewer’s focus to the centre of the scene—the laptop, candles, and table—making it feel intimate and inviting.`,
+      description: `<b>TECHNICAL SPECIFICATIONS</b><br>
+• Camera: Apple iPhone 16 Pro (Main Rear Camera)<br>
+• Resolution: 10 MP (2941 × 3637), JPEG (2.3 MB)<br>
+• Focal Length: 24 mm<br>
+• Aperture: f/1.78<br>
+• Shutter Speed: 1.4 s<br>
+• ISO: 2000<br>
+• Exposure Compensation: 0 EV<br><br>
+<b>DESCRIPTION OF THE SHOT</b><br>
+This photograph was taken in a dimly lit living room, using a long exposure to capture the cozy glow of fairy lights and candles. The extended shutter time and high ISO allow the room’s warmth to shine through while still preserving detail in the darker surroundings.
+The composition centers around a relaxed, personal workspace: a sofa in the background, a small wooden coffee table in the foreground, a softly lit laptop, a Marshall speaker, small candles flickering gently, and plush toys adding a touch of personality. The curtain and fairy lights form a glowing backdrop, while reflections on the wooden floor add depth and richness to the scene. The entire setting feels tranquil, inviting, and alive with soft ambient light.<br><br>
+<b>EDITING DETAILS</b><br>
+• Balanced brightness and shadows<br>
+• Slight contrast added<br>
+• Warmth and saturation enhanced<br>
+• Gentle noise reduction applied<br>
+• Light vignette added to guide focus`,
     },
     {
       id: "5",
-      title: "Professional Portrait",
+      title: "Formal Headshot: Professional Portrait",
       category: "uxui",
       image: portraitImage,
       height: "tall",
-      description: `<b>Technical Specifications</b>
-Camera: Apple iPhone 16 Pro (Main Rear Camera)
-Focal Length: 24 mm (≈95 mm equivalent)
-Aperture: f/1.78
-Resolution: 12 MP (3023 × 4030)
-Shutter Speed: 1/50 s
-ISO: 200
-Exposure: –0.7 EV
-File Type: PNG (2.3 MB)
-
-<b>Description</b>
-
-In this portrait, the focus is on capturing a calm, confident presence. The camera was placed at just the right distance to create a flattering perspective, highlighting natural features without any distortion. The simple background keeps all attention on the expression, allowing personality and poise to shine through.
-
-Soft, even lighting embraces the face, revealing natural skin tones and gentle shadows that add depth without harshness. The black outfit provides subtle contrast, giving the portrait a professional, polished, and timeless feel. Every detail—from the relaxed posture to the gentle gaze—was intended to communicate approachability, confidence, and authenticity.
-
-This is more than just a headshot—it’s a moment frozen to convey trustworthiness, calm assurance, and professionalism. It’s suitable for LinkedIn, portfolios, resumes, project pages, or any context where a genuine, confident impression matters. The overall effect is clean, simple, and focused, letting personality and professionalism speak clearly without distraction.
-
-<b>Editing Notes</b>
-
-Brightened slightly to maintain natural, healthy skin tones.
-
-Added gentle contrast to define details in the face and hair.
-
-Mild warmth added to keep the image inviting and avoid dull indoor tones.
-
-Background softened subtly to ensure the subject stands out.
-
-Minimal edits were applied to preserve a natural, authentic, and realistic look.`,
+      description: `<b>TECHNICAL SPECIFICATIONS</b><br>
+• Camera: Apple iPhone 16 Pro (Main Rear Camera)<br>
+• Focal Length: 24 mm (≈95 mm equivalent)<br>
+• Aperture: f/1.78<br>
+• Resolution: 12 MP (3023 × 4030)<br>
+• Shutter Speed: 1/50 s<br>
+• ISO: 200<br>
+• Exposure: –0.7 EV<br>
+• File Type: PNG (2.3 MB)<br><br>
+<b>PHOTO DESCRIPTION</b><br>
+This portrait was captured with the iPhone 16 Pro’s main camera to preserve natural facial proportions and avoid distortion. Positioned at a comfortable distance and lightly zoomed in, the camera creates a balanced, flattering headshot that highlights the subject’s expression with clarity. Soft, even lighting smooths transitions between highlights and shadows, giving the skin a natural glow and keeping the mood warm and approachable.
+The background is deliberately simple, gently fading out so the focus remains on the subject. The black outfit adds crisp contrast and heightens the portrait’s professional tone. Overall, the image feels clean, intentional, and composed with care.<br><br>
+<b>EDITING DETAILS</b><br>
+• Slight brightening<br>
+• Mild contrast increase<br>
+• Touch of warmth<br>
+• Gentle background softening<br>
+• Minimal edits for authenticity<br><br>
+<b>REPRESENTATION</b><br>
+This headshot captures a calm, confident, and approachable presence. The expression feels genuine and grounded, making the portrait suitable for resumes, LinkedIn profiles, academic portfolios, and professional platforms. Its simplicity, clarity, and warmth work together to form a polished first impression that communicates professionalism and sincerity.`,
     },
     {
       id: "6",
@@ -135,65 +121,62 @@ Minimal edits were applied to preserve a natural, authentic, and realistic look.
       category: "uxui",
       image: nightSkyImage,
       height: "normal",
-      description: `<b>Technical Specifications</b>
-• Camera: Unknown (shared via WhatsApp)
-• Resolution: 1 MP (960 × 1280)
-• File Type: JPEG (51 KB)
-• Lens / ISO / Shutter Speed: Not available
-
-<b>Description</b>
-
-The sky that evening felt like it was putting on a quiet show just for me. It began with deep reds melting into velvety magentas, spreading across the top of the sky like soft brushstrokes. As the colours drifted downward, they gently shifted into cool shades of green—unexpected, almost magical—like the sky was revealing a secret it doesn’t share often.
-
-Below this cascade of colour, a band of warm yellow clouds glowed as if they were carrying their own light. They floated just above the dark, jagged outline of the trees, creating a perfect contrast: the calm glow of the sky against the solid, silent strength of the forest. The trees stood there like quiet witnesses to the moment, their silhouettes holding the scene together.
-
-Behind it all, faint stars twinkled through the colours—tiny reminders of how wide and endless the night really is. For a moment, everything felt perfectly still. It was one of those scenes that makes you pause, breathe a little deeper, and simply take in the beauty unfolding above you. The sky wasn’t just colourful—it felt alive, like it had a story to tell, and I was lucky enough to capture it.
-
-<b>Editing Notes</b>
-
-• Enhanced the reds, greens, and yellows to bring out the natural colour layers.
-
-• Increased contrast to highlight the glowing clouds against the dark treeline.
-
-• Reduced noise for a smoother, dreamy sky.
-
-• Slightly lifted brightness to reveal cloud textures and faint stars.
-
-• Overall effect gives the image a soft, atmospheric glow with hidden colours brought to life.`,
+      description: `<b>TECHNICAL SPECIFICATIONS</b><br>
+• Camera: Apple iPhone 16 Pro (Main Rear Camera)<br>
+• Resolution: 1 MP (960 × 1280)<br>
+• File Type: JPEG (51 KB)<br><br>
+<b>DESCRIPTION OF THE SHOT</b><br>
+The sky in this image bursts with vibrant, almost surreal color. Deep reds and rich magentas sweep across the upper frame, blending gradually into soft greens that give the scene a dreamy, atmospheric quality. Beneath these colors, a band of glowing yellow clouds stretches above the dark silhouettes of trees, creating a bold contrast between light and shadow.
+Faint stars shimmer throughout the background, adding depth and giving the sky a sense of vastness. The horizon line and sharply defined treetops anchor the composition, guiding the viewer upward into the dramatic explosion of color. The result is a striking, almost otherworldly scene that captures the sky at a rare and mesmerizing moment.<br><br>
+<b>EDITING / PROCESSING NOTES</b><br>
+• Enhanced color vibrancy<br>
+• Increased contrast<br>
+• Noise reduction<br>
+• Slight brightness lift<br>
+• Overall effect highlights atmospheric tones`,
     },
     {
       id: "7",
-      title: `"Coffee" Short Film - Lip Sync Video`,
+      title: `"Coffee" Student Advertisement`,
       category: "web",
       image: "",
       height: "normal",
-      description: `<b>From Beat to Frame: My Journey Videographing the "Coffee" Short Film</b>
-
-Picture this: a dimly lit room humming with the infectious rhythm of Sabrina Carpenter’s “Coffee.” As the videographer, I wasn’t just capturing footage—I was weaving a story of late-night creativity, where every shot breathed life into the song’s playful charm and unstoppable tempo. This wasn’t a polished studio production—it was a raw, collaborative sprint, shot entirely on iPhone 16 Pro Max and iPhone 16 Pro, turning everyday tech into cinematic magic.
-
-<b>The Spark Ignites: Gear Up and Dive In</b>
-
-It all started with a simple idea: bring “Coffee” to life through lip-sync mastery—no scripts, just pure performance synced to the track’s cheeky hooks. I picked up the iPhone 16 Pro Max for its pro-grade video capabilities—4K frames, buttery smooth at high frame rates—and the iPhone 16 Pro as backup for alternate angles. No gimbal, no extras—just handheld hustle to match the song’s bouncy energy.
-
-The performers hit their marks with precision, channeling caffeinated flirtation, while I moved with them—framing tight close-ups of smirks, wide shots of synchronized swagger, and playful pivots. Continuity was our constant challenge: one flickering light on “Baby, I know that’s me coffee” and we’d reset, nailing it in under fifteen minutes thanks to sheer team grit.
-
-<b>Behind the Lens: Sweat, Syncs, and Small Miracles</b>
-
-Videography here wasn’t just pressing record—it was choreography. I anticipated every lyric drop, zooming in at just the right moment to catch a spark in the eyes or the subtle hip sway that screamed confidence. Fast pans tested the iPhones’ stabilization, but leaning into handheld energy added authenticity.
-
-Post-shoot, Adobe Premiere Pro became my canvas for trimming beats, layering audio polish to make every word pop. InShot added playful text overlays, and After Effects spun the end credits into a hypnotic scroll—echoing smooth transitions I’d honed from my TFI Bicycle ad days. One small miracle? A tripod steadied a crucial transition shot, turning potential chaos into seamless rhythm.
-
-<b>Trials, Triumphs, and the Team’s Rhythm</b>
-
-Not every take was perfect. Syncing visuals to lines like “I can’t relate to desperation… Might give a fuck’s are on vacation” demanded precision—off-beat glances or mismatched lips meant starting over, testing patience but filling the room with laughter. That’s where the magic lived: Mughunthan’s charisma, Kavita’s poise, and our collective problem-solving created a vibe that mirrored the TFI project, balancing energy, timing, and spontaneity.
-
-We focused only on essential shots, respecting deadlines, and the reward was instant: seeing raw performance immortalized, hearing the final mix thump, and knowing that iPhone power plus human spark could rival big rigs.
-
-<b>The Final Brew: A Caffeinated Masterpiece</b>
-
-When the credits rolled, “Coffee” was more than a video—it was a shared high, a testament to mobile filmmaking where limitation sparks invention. Proud doesn’t cover it; this journey sharpened my eye for rhythm-driven storytelling, blending tech savvy with heart. Grateful for the team who turned lyrics into legacy.
-
-Watch it, feel the buzz, and remember: sometimes the best shots come from the boldest brews.`,
+      description: `
+<b>BEHIND THE LENS: PRODUCING A STUDENT COFFEE ADVERTISEMENT</b><br><br>
+<b>INTRODUCTION</b><br>
+Our team created a short coffee advertisement highlighting a common student experience balancing academic pressure while relying on coffee for motivation. In this blog, I share the project from my perspective as the videographer, focusing on visual choices, filming challenges, and creative decisions that shaped the final product.<br><br>
+<b>CONCEPT DEVELOPMENT</b><br>
+We noticed that students often reach for coffee not just for caffeine, but for a mental boost during stressful periods. We captured this through a simple, relatable narrative with the tagline:<b>"COFFEE solves all your problems."</b> The story follows a student overwhelmed by deadlines and messages, then revitalised after a cup of coffee.<br><br>
+<b>MY ROLE AS THE VIDEOGRAPHER</b><br>
+I translated this concept into visuals, focusing on framing, lighting, and pacing to reflect the protagonist’s emotional journey. Each shot was designed to show the contrast between stress and relief.<br><br>
+<b>VISUAL STRATEGY</b><br>
+• Black-and-White: Stress, fatigue, mental clutter<br>
+• Full-Color: Energy, warmth, renewed motivation<br><br>
+<b>PRODUCTION HIGHLIGHTS</b><br>
+• Opening Wide Shot: Black-and-white campus walk to convey isolation and stress.<br>
+• Close-Up of Phone: Stabilised and positioned to capture constant notifications and pressure.<br>
+• Mid Shot of the “Coffee Moment”: Warm lighting and gentle motion to show transformation.<br>
+• Overhead Desk Shot: Top-down view of a cluttered workspace, controlled shadows for emphasis.<br>
+• Final Walk: Full-colour mirror of opening shot to show regained clarity and energy.<br><br>
+<b>TEAM COLLABORATION</b><br>
+While I led visual decisions, the production relied on teamwork for storyboarding, location setup, and coordinating scenes. Clear communication ensured that every shot matched the intended emotional tone.<br><br>
+<b>REFLECTION</b><br>
+Being the videographer sharpened my skills in:
+• Composing meaningful shots
+• Using lighting to convey emotion
+• Adapting to unexpected filming challenges
+• Maintaining scene continuity
+• Directing actors for natural movement and positioning
+It reinforced how technical choices and creativity work together to tell a compelling story.
+<br><br>
+<b>PROJECT STILLS</b><br>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
+  <img src="${videoImg1}" class="w-full h-32 object-cover rounded-lg" />
+  <img src="${videoImg2}" class="w-full h-32 object-cover rounded-lg" />
+  <img src="${videoImg3}" class="w-full h-32 object-cover rounded-lg" />
+  <img src="${videoImg4}" class="w-full h-32 object-cover rounded-lg" />
+</div>
+`,
       youtubeUrl: "https://www.youtube.com/watch?v=hGXjlXMoMAo",
     },
   ];
@@ -211,10 +194,12 @@ Watch it, feel the buzz, and remember: sometimes the best shots come from the bo
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 relative overflow-hidden">
+      {/* Background decorations */}
       <div className="absolute top-20 right-10 w-64 h-64 bg-indigo-200 dark:bg-indigo-900 rounded-full blur-3xl opacity-20 animate-[float_8s_ease-in-out_infinite]" />
       <div className="absolute bottom-40 left-10 w-48 h-48 bg-indigo-200 dark:bg-indigo-900 rounded-full blur-3xl opacity-15 animate-[float_6s_ease-in-out_infinite_2s]" />
 
       <div className="max-w-6xl mx-auto px-6 py-32 relative z-10">
+        {/* Header */}
         <div className="text-center mb-16 animate-[fadeInUp_0.8s_ease-out]">
           <h1 className="text-5xl md:text-6xl mb-6 text-slate-900 dark:text-white">
             My <span className="font-bold">Work</span>
@@ -245,6 +230,7 @@ Watch it, feel the buzz, and remember: sometimes the best shots come from the bo
           </div>
         </div>
 
+        {/* Projects Grid */}
         <div className="mb-20 animate-[fadeInUp_1s_ease-out]">
           <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
             {filteredProjects.map((project) => (
@@ -296,6 +282,7 @@ Watch it, feel the buzz, and remember: sometimes the best shots come from the bo
         </div>
       </div>
 
+      {/* Modal */}
       {selectedProject && (
         <div
           className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-6 animate-[fadeIn_0.3s_ease-out]"
@@ -344,7 +331,10 @@ Watch it, feel the buzz, and remember: sometimes the best shots come from the bo
               </h2>
               <div className="mb-6">
                 <span className="inline-block px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400 rounded-full text-sm">
-                  {categories.find((c) => c.id === selectedProject.category)?.label}
+                  {
+                    categories.find((c) => c.id === selectedProject.category)
+                      ?.label
+                  }
                 </span>
               </div>
 
@@ -406,3 +396,4 @@ Watch it, feel the buzz, and remember: sometimes the best shots come from the bo
     </div>
   );
 }
+
