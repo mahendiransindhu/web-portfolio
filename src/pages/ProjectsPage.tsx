@@ -188,7 +188,6 @@ This project reflects on my journey through interactive media, exploring theoret
               <X className="w-6 h-6 text-slate-700 dark:text-slate-300" />
             </button>
 
-            {/* Video / Image */}
             {selectedProject.youtubeUrl ? (
               <div className="w-full rounded-t-2xl overflow-hidden bg-black aspect-video">
                 <iframe
