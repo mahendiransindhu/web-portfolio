@@ -95,7 +95,7 @@ export function ProjectsPage() {
       description: `
 <b>CS6042 Interactive Media Journey: Theory → Systems → Critical Design</b><br><br>
 This project reflects on my journey through interactive media, exploring theoretical frameworks, system design approaches, and critical design practices...`,
-      youtubeUrl: "https://www.youtube.com/embed/w3MR2w7SUec",
+      youtubeUrl: "https://youtu.be/9yeEhk0LVHc",
     },
   ];
 
