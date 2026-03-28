@@ -12,6 +12,9 @@ import videoImg2 from "@/assets/9.jpeg";
 import videoImg3 from "@/assets/10.jpeg";
 import videoImg4 from "@/assets/11.jpeg";
 
+// New reflective video
+import reflectiveVideo from "@/assets/1.mp4";
+
 interface Project {
   id: string;
   title: string;
@@ -32,48 +35,37 @@ export function ProjectsPage() {
   const projects: Project[] = [
     {
       id: "1",
-      title: "Design Qualities in Everyday Objects",
+      title: "Lazer Cut Phone Stand",
       category: "product",
       image: everydayObjectsImage,
       height: "normal",
       description:
-        "<b>OVERVIEW:</b> A creative project showcasing innovative design thinking and a user-centered approach. The focus is on how everyday objects can embody aesthetic principles while remaining functional. Each object was analyzed for ergonomics, form, and interaction.<br><br><b>INSIGHTS:</b> Observations revealed patterns in how humans intuitively engage with objects, emphasizing minimalism, texture, and adaptability.<br><br><b>OUTCOME:</b> The project culminated in a visual documentation highlighting the thoughtful design qualities and practical utility, inspiring a deeper appreciation for everyday items.",
+        "<b>OVERVIEW:</b> A product design project focused on creating a minimal and functional laser-cut phone stand. The design emphasizes precision, material efficiency, and usability.<br><br><b>PROCESS:</b> The stand was developed using CAD modeling and optimized for laser cutting, ensuring structural stability while maintaining a clean aesthetic.<br><br><b>OUTCOME:</b> A compact, portable phone stand that balances functionality with modern design principles.",
       externalLink:
-        "https://drive.google.com/file/d/1SPFX2IIAGy0hkFYkqEvhDJ_ixelTqAD9/view?usp=sharing",
+        "https://www.behance.net/gallery/246569769/Lazer-Cut-Phone-Stand",
     },
     {
       id: "2",
-      title: "Qualitative Design Research",
+      title: "Interactive Soundscape Project",
       category: "product",
       image:
         "https://images.unsplash.com/photo-1762318953799-918e21d1fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       height: "tall",
       description:
-        "<b>OVERVIEW:</b> A study exploring geometric patterns, minimal aesthetics, and user behavior in product interaction. The research combines visual analysis, prototyping, and qualitative feedback.<br><br><b>METHODOLOGY:</b> Through interviews and observational studies, user responses to form, shape, and material were documented.<br><br><b>FINDINGS:</b> Simpler shapes with ergonomic considerations resulted in higher usability ratings. The visual narrative emphasizes balance, proportion, and emotional resonance in product design.<br><br><b>OUTCOME:</b> The insights informed design principles and prototypes that merge aesthetic appeal with intuitive functionality.",
+        "<b>OVERVIEW:</b> An interactive design project exploring the relationship between sound, space, and user interaction.<br><br><b>CONCEPT:</b> The project creates an immersive soundscape where user actions influence audio outputs, blending technology with sensory experience.<br><br><b>OUTCOME:</b> A dynamic installation concept that demonstrates how sound can enhance engagement and storytelling in interactive environments.",
       externalLink:
-        "https://drive.google.com/file/d/1nO1_zlgJL0IcDmXBi0tgGr1nqm0R_tXf/view?usp=sharing",
+        "https://www.behance.net/gallery/246569919/Interactive-Soundscape-Project",
     },
     {
-      id: "3",
-      title: "Creative Exploration and Prototyping",
+      id: "8",
+      title: "Echo Garden: Interactive Art Storyboarding",
       category: "product",
       image:
-        "https://images.unsplash.com/photo-1586296835409-fe3fe6b35b56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      height: "normal",
+        "https://images.unsplash.com/photo-1473773508845-188df298d2d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      height: "tall",
       description:
-        "<b>OVERVIEW:</b> A sculptural exploration of form, material, and functional design. The project aimed to merge aesthetics with usability, resulting in unique, interactive prototypes.<br><br><b>PROCESS:</b> Each prototype was crafted through iterative design, combining sketching, 3D modeling, and hands-on prototyping. Materials were chosen for texture, durability, and visual appeal.<br><br><b>OUTCOME:</b> The final series of designs demonstrates a harmonious balance between visual beauty, practical functionality, and user engagement.",
-      externalLink:
-        "https://drive.google.com/file/d/1P4dKrNeSAfUu76qckZIbTwXq6NJ1Fyl3/view?usp=sharing",
-    },
-    {
-  id: "8",
-  title: "Echo Garden: Interactive Art Storyboarding",
-  category: "product",
-  image: "https://images.unsplash.com/photo-1473773508845-188df298d2d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-  height: "tall",
-  description:
-    "<b>OVERVIEW:</b> A storyboard-based interactive installation exploring a digital ecosystem where visitors act as pollinators influencing virtual plants. The project visualises sustainability through interaction design aligned with UN SDG 15 — Life on Land.<br><br><b>SKILLS:</b> UX storyboarding, system thinking, interaction design, sustainability-driven design, and narrative building.<br><br><b>TOOLS:</b> Unity, TouchDesigner, Raspberry Pi (conceptual), sensors, projection mapping.",
-  externalLink: echoGardenPdf
+        "<b>OVERVIEW:</b> A storyboard-based interactive installation exploring a digital ecosystem where visitors act as pollinators influencing virtual plants. The project visualises sustainability through interaction design aligned with UN SDG 15 — Life on Land.<br><br><b>SKILLS:</b> UX storyboarding, system thinking, interaction design, sustainability-driven design, and narrative building.<br><br><b>TOOLS:</b> Unity, TouchDesigner, Raspberry Pi (conceptual), sensors, projection mapping.",
+      externalLink: echoGardenPdf,
     },
     {
       id: "4",
@@ -148,47 +140,13 @@ Faint stars shimmer throughout the background, adding depth and giving the sky a
     },
     {
       id: "7",
-      title: `"Coffee" Student Advertisement`,
+      title: "Reflective Piece",
       category: "web",
       image: "",
-      height: "normal",
       description: `
-<b>BEHIND THE LENS: PRODUCING A STUDENT COFFEE ADVERTISEMENT</b><br><br>
-<b>INTRODUCTION</b><br>
-Our team created a short coffee advertisement highlighting a common student experience balancing academic pressure while relying on coffee for motivation. In this blog, I share the project from my perspective as the videographer, focusing on visual choices, filming challenges, and creative decisions that shaped the final product.<br><br>
-<b>CONCEPT DEVELOPMENT</b><br>
-We noticed that students often reach for coffee not just for caffeine, but for a mental boost during stressful periods. We captured this through a simple, relatable narrative with the tagline:<b>"COFFEE solves all your problems."</b> The story follows a student overwhelmed by deadlines and messages, then revitalised after a cup of coffee.<br><br>
-<b>MY ROLE AS THE VIDEOGRAPHER</b><br>
-I translated this concept into visuals, focusing on framing, lighting, and pacing to reflect the protagonist’s emotional journey. Each shot was designed to show the contrast between stress and relief.<br><br>
-<b>VISUAL STRATEGY</b><br>
-• Black-and-White: Stress, fatigue, mental clutter<br>
-• Full-Color: Energy, warmth, renewed motivation<br><br>
-<b>PRODUCTION HIGHLIGHTS</b><br>
-• Opening Wide Shot: Black-and-white campus walk to convey isolation and stress.<br>
-• Close-Up of Phone: Stabilised and positioned to capture constant notifications and pressure.<br>
-• Mid Shot of the “Coffee Moment”: Warm lighting and gentle motion to show transformation.<br>
-• Overhead Desk Shot: Top-down view of a cluttered workspace, controlled shadows for emphasis.<br>
-• Final Walk: Full-colour mirror of opening shot to show regained clarity and energy.<br><br>
-<b>TEAM COLLABORATION</b><br>
-While I led visual decisions, the production relied on teamwork for storyboarding, location setup, and coordinating scenes. Clear communication ensured that every shot matched the intended emotional tone.<br><br>
-<b>REFLECTION</b><br>
-Being the videographer sharpened my skills in:
-• Composing meaningful shots
-• Using lighting to convey emotion
-• Adapting to unexpected filming challenges
-• Maintaining scene continuity
-• Directing actors for natural movement and positioning
-It reinforced how technical choices and creativity work together to tell a compelling story.
-<br><br>
-<b>PROJECT STILLS</b><br>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
-  <img src="${videoImg1}" class="w-full h-32 object-cover rounded-lg" />
-  <img src="${videoImg2}" class="w-full h-32 object-cover rounded-lg" />
-  <img src="${videoImg3}" class="w-full h-32 object-cover rounded-lg" />
-  <img src="${videoImg4}" class="w-full h-32 object-cover rounded-lg" />
-</div>
-`,
-      youtubeUrl: "https://www.youtube.com/watch?v=hGXjlXMoMAo",
+<b>CS6042 Interactive Media Journey: Theory → Systems → Critical Design</b><br><br>
+This project reflects on my journey through interactive media, exploring theoretical frameworks, system design approaches, and critical design practices. The reflective piece documents insights, challenges, and the evolution of my understanding throughout the course.`,
+      externalLink: reflectiveVideo,
     },
   ];
 
@@ -248,13 +206,7 @@ It reinforced how technical choices and creativity work together to tell a compe
               <div
                 key={project.id}
                 className="break-inside-avoid group cursor-pointer"
-                onClick={() => {
-                  if (project.externalLink) {
-                    window.open(project.externalLink, "_blank");
-                  } else {
-                    setSelectedProject(project);
-                  }
-                }}
+                onClick={() => setSelectedProject(project)}
               >
                 <div className="rounded-xl overflow-hidden bg-white dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-800 hover:border-indigo-400 dark:hover:border-indigo-600 transition-all hover:shadow-xl">
                   <div
@@ -271,7 +223,7 @@ It reinforced how technical choices and creativity work together to tell a compe
                     ) : (
                       <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-indigo-600 to-indigo-700 dark:from-indigo-700 dark:to-indigo-800">
                         <span className="text-6xl md:text-7xl font-bold text-white">
-                          Coffee
+                          Video
                         </span>
                       </div>
                     )}
@@ -311,19 +263,12 @@ It reinforced how technical choices and creativity work together to tell a compe
             </button>
 
             {selectedProject.category === "web" &&
-            selectedProject.youtubeUrl ? (
+            selectedProject.externalLink ? (
               <div className="w-full rounded-t-2xl overflow-hidden bg-black aspect-video">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src={`https://www.youtube.com/embed/${selectedProject.youtubeUrl.split(
-                    "v="
-                  )[1]}`}
-                  title={selectedProject.title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
+                <video
+                  controls
+                  className="w-full h-full object-contain"
+                  src={selectedProject.externalLink}
                 />
               </div>
             ) : (
@@ -354,20 +299,6 @@ It reinforced how technical choices and creativity work together to tell a compe
                 dangerouslySetInnerHTML={{ __html: selectedProject.description! }}
               />
 
-              {selectedProject.category === "web" &&
-                selectedProject.blogLink && (
-                  <div className="flex flex-col gap-4 pt-6 mt-6 border-t border-slate-200 dark:border-slate-800">
-                    <a
-                      href={selectedProject.blogLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-3 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-700 dark:hover:bg-indigo-600 text-white rounded-lg transition-all hover:shadow-lg hover:-translate-y-0.5 w-fit"
-                    >
-                      <span>Read the Blog</span>
-                    </a>
-                  </div>
-                )}
-
               {selectedProject.category === "product" &&
                 selectedProject.externalLink && (
                   <div className="flex flex-col gap-4 pt-6 mt-6 border-t border-slate-200 dark:border-slate-800">
@@ -387,24 +318,11 @@ It reinforced how technical choices and creativity work together to tell a compe
       )}
 
       <style>{`
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        @keyframes fadeInUp {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes slideUp {
-          from { opacity: 0; transform: translateY(30px) scale(0.95); }
-          to { opacity: 1; transform: translateY(0) scale(1); }
-        }
-        @keyframes float {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-20px) rotate(5deg); }
-        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px) scale(0.95); } to { opacity: 1; transform: translateY(0) scale(1); } }
+        @keyframes float { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-20px) rotate(5deg); } }
       `}</style>
     </div>
   );
 }
-
